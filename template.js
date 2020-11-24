@@ -1,4 +1,4 @@
-getRandomInt = max => Math.floor(Math.random() * Math.floor(max));
+const getRandomInt = max => Math.floor(Math.random() * Math.floor(max));
 
 
 class InternetShop {
