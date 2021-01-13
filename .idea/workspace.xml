@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4942d26-3977-4e34-9013-0b3a766d8b0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IoC_server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoC.js" beforeDir="false" afterPath="$PROJECT_DIR$/IoC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/graph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/factory.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +70,8 @@
       <workItem from="1606288999292" duration="7000" />
       <workItem from="1607260580333" duration="31902000" />
       <workItem from="1607416940206" duration="9617000" />
+      <workItem from="1610552086885" duration="172000" />
+      <workItem from="1610552306447" duration="27000" />
     </task>
     <servers />
   </component>
