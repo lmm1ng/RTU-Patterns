@@ -132,7 +132,7 @@ class AlarmBlock {
                     console.log(`Пожар потушен в номере ${neighbour.name}`)
                     break
                 } else {
-                    console.log('Упс... Пожар в этом номере...')
+                    console.log('Упс... Пожар не в этом номере...')
                 }
             }
         }

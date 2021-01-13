@@ -1,5 +1,7 @@
 // Регистрация пользователя в интернет магазине
 
+import {CurrentAvatar, CurrentPromo} from "./IoC_server.js";
+
 class User {
     constructor(name, age) {
         this.name = name;
@@ -17,30 +19,7 @@ class User {
         console.log(`Ссылка на аватарку пользователя ${this.name} (${this.age} лет): ${this.avatar.href}`)
     }
 }
-class CurrentAvatar {
-    constructor() {
-        this.href = this.getDefaultAvatar()
-    }
 
-    getDefaultAvatar() {
-        // Какой-то запрос
-        return 'https://192.168.0.76/default.png'
-
-    }
-}
-class CurrentPromo {
-    constructor() {
-        this.weekly = this.getWeeklyPromo();
-    }
-    getWeeklyPromo() {
-        // Какой-то запрос
-        return {
-            product: 'Кастрюля',
-            amount: '2000р',
-            per: '15%'
-        }
-    }
-}
 
 const user = new User('Вася', 17);
 user.sendEmailPromo();
